@@ -62,6 +62,7 @@ procedure exercise8 is
 
 
 
+
     task type Transaction_Worker (Initial : Integer; Manager : access Transaction_Manager);
     task body Transaction_Worker is
         Num         : Integer   := Initial;
